@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUPFLIX - Filmes Completos</title> <!-- Título da Página -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>SUPFLIX</h1> <!-- Nome do site no cabeçalho -->
+        <input type="text" id="searchBar" placeholder="Pesquisar filmes..." onkeyup="searchMovies()">
+    </header>
+    
+    <section id="movies-list">
+        <div class="movie" data-title="O Poderoso Chefão">
+            <img src="https://via.placeholder.com/150" alt="O Poderoso Chefão">
+            <h2>O Poderoso Chefão</h2>
+            <button onclick="assistirFilme('O Poderoso Chefão')">Assistir</button>
+        </div>
+        <div class="movie" data-title="Matrix">
+            <img src="https://via.placeholder.com/150" alt="Matrix">
+            <h2>Matrix</h2>
+            <button onclick="assistirFilme('Matrix')">Assistir</button>
+        </div>
+        <div class="movie" data-title="Vingadores: Ultimato">
+            <img src="https://via.placeholder.com/150" alt="Vingadores: Ultimato">
+            <h2>Vingadores: Ultimato</h2>
+            <button onclick="assistirFilme('Vingadores: Ultimato')">Assistir</button>
+        </div>
+        <div class="movie" data-title="Coringa">
+            <img src="https://via.placeholder.com/150" alt="Coringa">
+            <h2>Coringa</h2>
+            <button onclick="assistirFilme('Coringa')">Assistir</button>
+        </div>
+        <div class="movie" data-title="Interestelar">
+            <img src="https://via.placeholder.com/150" alt="Interestelar">
+            <h2>Interestelar</h2>
+            <button onclick="assistirFilme('Interestelar')">Assistir</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 SUPFLIX. Todos os direitos reservados.</p> <!-- Alteração no rodapé -->
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
